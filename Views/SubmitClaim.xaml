@@ -1,0 +1,16 @@
+<Window x:Class="ContractMonthlyClaimSystemWPF.Views.SubmitClaim"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Submit Claim" Height="500" Width="600">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Submit Monthly Claim" FontSize="18" Margin="0,0,0,20"/>
+            <TextBlock Text="Programme:"/><TextBox/>
+            <TextBlock Text="Month/Year:"/><TextBox/>
+            <TextBlock Text="Amount:"/><TextBox/>
+            <TextBlock Text="Description:"/><TextBox Height="60"/>
+            <TextBlock Text="Upload Documents:"/><Button Content="Browse"/>
+            <Button Content="Submit" Width="100" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>

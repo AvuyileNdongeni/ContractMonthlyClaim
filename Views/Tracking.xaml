@@ -1,0 +1,15 @@
+<Window x:Class="ContractMonthlyClaimSystemWPF.Views.Tracking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tracking" Height="300" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Claim Tracking" FontSize="18" Margin="0,0,0,20"/>
+        <TextBlock Text="ClaimID: CLM-001" FontWeight="Bold"/>
+        <ListBox>
+            <ListBoxItem>Submitted ✔</ListBoxItem>
+            <ListBoxItem>Verified ⏳</ListBoxItem>
+            <ListBoxItem>Approved ❌</ListBoxItem>
+            <ListBoxItem>Settled ❌</ListBoxItem>
+        </ListBox>
+    </StackPanel>
+</Window>
